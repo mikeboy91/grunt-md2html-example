@@ -1,6 +1,6 @@
 {
-  "name": "my-test",
-  "version": "1.0.0",
+  "name": "grunt-md2html-example",
+  "version": "0.0.1",
   "dependencies": {
     "grunt": "^1.0.1",
     "grunt-exec": "^1.0.0"
