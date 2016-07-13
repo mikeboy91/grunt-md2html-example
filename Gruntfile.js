@@ -5,7 +5,7 @@ grunt.initConfig({
   file: grunt.file.mkdir("dist"),
   exec: {
     pandoc: {
-      cmd: "pandoc --css=<%= config.base %>/css/modest.css --to=html5 --output=<%= config.base %>dist/src.html src.md"
+      cmd: "pandoc --css=<%= config.base %>/css/modest.css --to=html5 --output=<%= config.base %>dist/index.html src.md"
     }
   },
   assets_inline: {
@@ -14,7 +14,7 @@ grunt.initConfig({
         inlineImg: true
       },
       files: {
-        '<%= config.base %>dist/src.html': '<%= config.base %>dist/src.html',
+        '<%= config.base %>dist/index.html': '<%= config.base %>dist/index.html',
       },
     },
   }
