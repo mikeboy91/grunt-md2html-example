@@ -1,11 +1,9 @@
 {
   "name": "grunt-md2html-example",
   "version": "0.0.1",
-  "dependencies": {
-    "grunt": "^1.0.1",
-    "grunt-exec": "^1.0.0"
-  },
   "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-exec": "^1.0.0",
     "grunt-assets-inline": "^0.1.14"
   }
 }
